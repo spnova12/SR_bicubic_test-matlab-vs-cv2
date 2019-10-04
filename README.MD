@@ -3,13 +3,13 @@ SR_bicubic_test(matlab vs cv2)
 
 This project compares the bicubic and psnr measurements in matlab and python's cv2.    
 
-#####Dependencies and Installation
+**Dependencies and Installation**  
 * Python 3.6
 * PyTorch 1.1
 * Matlab
 * opencv 3.4.2
 
-#####How to use code
+**How to use code**  
 1. Make Down and Up scaled Images by using bicubic in various ways.  
 run Create_DownUpScaled_Images.m  
 run Create_DownUpScaled_Images_cv2.py  
@@ -20,7 +20,7 @@ run Get_PSNR_demo.m
 run Get_PSNR_demo.py  
 
 
-#####Experiment result
+**Experiment result**  
 Since the 'bicubic' and 'bgr2ycbcr' functions are different in cv2 and matlab,   
 the values are different when measuring the PSNR of SR.
 
